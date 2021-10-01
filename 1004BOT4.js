@@ -3,9 +3,6 @@ const FS = require('fs');
 const fs = require('fs');
 const cheerio = require('cheerio');
 const jsonFile = require('jsonfile');
-const {
-    MessageFlags
-} = require("discord.js");
 const AsyncFunction = Object.getPrototypeOf(async function() {}).constructor
 const list = jsonFile.readFileSync("./tajalist.json");
 const gfriend = jsonFile.readFileSync("./gfriend.json");
